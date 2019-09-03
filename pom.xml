@@ -19,7 +19,10 @@
             </plugin>
         </plugins>
     </build>
-    <packaging>jar</packaging>
+    <modules>
+        <module>learn</module>
+    </modules>
+    <packaging>pom</packaging>
     <dependencies>
         <!--        mysql-->
         <dependency>
